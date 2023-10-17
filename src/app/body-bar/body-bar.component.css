@@ -1,0 +1,33 @@
+.controller{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vw;
+}
+
+.body-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    background-color: bisque;
+    width: 40%;
+}
+button{
+    padding: 20px;
+    width: 130px;
+    background-color: white;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    background: rgb(231, 231, 231);
+}

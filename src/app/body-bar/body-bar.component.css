@@ -6,28 +6,35 @@
 }
 
 .body-bar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-    flex-wrap: wrap;
     background-color: bisque;
     width: 40%;
 }
-button{
-    padding: 20px;
-    width: 130px;
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+
+li{
+    width: 150px;
+    margin: 30px;
+    list-style: none;
     background-color: white;
     border: none;
-    margin: 20px;
-    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 3px black;
 }
 
 a{
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
-button:hover{
+li:hover{
     background: rgb(231, 231, 231);
 }
